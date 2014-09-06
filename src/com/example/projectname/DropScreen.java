@@ -36,7 +36,6 @@ public class DropScreen extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_drop_screen);
-		
         nextButton = (Button) findViewById(R.id.button1);
 		radius = getIntent().getExtras().getInt("Radius");
 		latitude = getIntent().getExtras().getDouble("Latitude");
@@ -123,32 +122,48 @@ public class DropScreen extends ActionBarActivity {
 		listDataChild = new HashMap<String, List<String>>();
 
 		// Adding child data
-		listDataHeader.add("Food & Drink");
-		listDataHeader.add("Fun Attractions");
-		listDataHeader.add("Miscellaneous");
+		listDataHeader.add("Food");
+		listDataHeader.add("Drink");
+		listDataHeader.add("Attractions");
 		listDataHeader.add("Shopping");
-
-		// Adding child data
-		List<String> food_drink = new ArrayList<String>();
-		food_drink.add("Bakeries");
-		food_drink.add("Bars");
-		food_drink.add("Cafes");
-		food_drink.add("Fast Food");
-		food_drink.add("Liquor Stores");
-		food_drink.add("Restaurants");
+		listDataHeader.add("Miscellaneous");
 		
-		List<String> fun_attractions = new ArrayList<String>();
-		fun_attractions.add("Amusement Parks");
-		fun_attractions.add("Aquariums");
-		fun_attractions.add("Art Galleries");
-		fun_attractions.add("Bowling Alleys");
-		fun_attractions.add("Casinos");
-		fun_attractions.add("Movie Theaters");
-		fun_attractions.add("Museums");
-		fun_attractions.add("Night Clubs");
-		fun_attractions.add("Parks");
-		fun_attractions.add("Stadiums");
-		fun_attractions.add("Zoos");
+		// Adding child data
+		List<String> food = new ArrayList<String>();
+		food.add("Bakeries");
+		food.add("Fast Food");
+		food.add("Restaurants");
+		
+		List<String> drink = new ArrayList<String>();
+		drink.add("Bars");
+		drink.add("Cafes");
+		drink.add("Liquor Stores");
+		
+		List<String> attractions = new ArrayList<String>();
+		attractions.add("Amusement Parks");
+		attractions.add("Aquariums");
+		attractions.add("Art Galleries");
+		attractions.add("Bowling Alleys");
+		attractions.add("Casinos");
+		attractions.add("Movie Theaters");
+		attractions.add("Museums");
+		attractions.add("Night Clubs");
+		attractions.add("Parks");
+		attractions.add("Stadiums");
+		attractions.add("Zoos");
+		
+		List<String> shop = new ArrayList<String>();
+		shop.add("Clothing");
+		shop.add("Convenience");
+		shop.add("Books");
+		shop.add("Pets");
+		shop.add("Department Stores");
+		shop.add("Electronics");
+		shop.add("Furniture");
+		shop.add("Grocery");
+		shop.add("Jewelry");
+		shop.add("Shoes");
+		shop.add("Malls");
 		
 		List<String> misc = new ArrayList<String>();
 		misc.add("Salons");
@@ -158,24 +173,11 @@ public class DropScreen extends ActionBarActivity {
 		misc.add("Parking");
 		misc.add("Spas");
 		
-
-		List<String> shop = new ArrayList<String>();
-		shop.add("Clothing");
-		shop.add("Convenience");
-		misc.add("Books");
-		misc.add("Pets");
-		shop.add("Department Stores");
-		shop.add("Electronics");
-		shop.add("Furniture");
-		shop.add("Grocery");
-		shop.add("Jewelry");
-		shop.add("Shoes");
-		shop.add("Malls");
-
-		listDataChild.put(listDataHeader.get(0), food_drink); // Header, Child data
-		listDataChild.put(listDataHeader.get(1), fun_attractions);
-		listDataChild.put(listDataHeader.get(2), misc);
+		listDataChild.put(listDataHeader.get(0), food); // Header, Child data
+		listDataChild.put(listDataHeader.get(1), drink);
+		listDataChild.put(listDataHeader.get(2), attractions);
 		listDataChild.put(listDataHeader.get(3), shop);
+		listDataChild.put(listDataHeader.get(4), misc);
 	}
 	  
 	@Override

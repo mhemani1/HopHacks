@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">projectName</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="location_title">Camden Yards</string>
+    <string name="location_description">Retro design meets modern eats at this stadium where MLB\'s iconic Baltimore Orioles take the bases.</string>
+    <string name="image_description">Image</string>
+    <string name="rating">4.7 stars</string>
+    <string name="distance">6.3 mi</string>
+    <string name="title_activity_tinder_screen">TinderScreen</string>
+    <string name="title_activity_drop_screen">DropScreen</string>
+    <string name="title_activity_gps">GPS</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="question">How far are you willing to go?</string>
+
+</resources>

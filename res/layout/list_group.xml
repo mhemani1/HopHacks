@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="14dp"
-    android:background="#e5e5e5">
+    android:background="#ffa8a8">
 
     <TextView
         android:id="@+id/lblListHeader"

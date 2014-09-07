@@ -1079,19 +1079,22 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int camden_yards=0x7f020057;
         public static final int home_icon=0x7f020058;
-        public static final int ic_launcher=0x7f020059;
-        public static final int image_border=0x7f02005a;
-        public static final int menu_divider=0x7f02005b;
-        public static final int more_icon=0x7f02005c;
-        public static final int nav_background=0x7f02005d;
-        public static final int nav_border=0x7f02005e;
-        public static final int radius_dot=0x7f02005f;
-        public static final int radius_horz_dot=0x7f020060;
-        public static final int radius_start=0x7f020061;
-        public static final int radius_thumb=0x7f020062;
-        public static final int right_arrow=0x7f020063;
-        public static final int search_icon=0x7f020064;
-        public static final int seekbar_progress=0x7f020065;
+        public static final int home_screen=0x7f020059;
+        public static final int ic_launcher=0x7f02005a;
+        public static final int image_border=0x7f02005b;
+        public static final int menu_divider=0x7f02005c;
+        public static final int menu_selected_bg=0x7f02005d;
+        public static final int more_icon=0x7f02005e;
+        public static final int nav_background=0x7f02005f;
+        public static final int nav_border=0x7f020060;
+        public static final int radius_dot=0x7f020061;
+        public static final int radius_horz_dot=0x7f020062;
+        public static final int radius_start=0x7f020063;
+        public static final int radius_thumb=0x7f020064;
+        public static final int right_arrow=0x7f020065;
+        public static final int search_icon=0x7f020066;
+        public static final int seekbar_progress=0x7f020067;
+        public static final int selector=0x7f020068;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1105,7 +1108,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050050;
+        public static final int action_settings=0x7f050051;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1130,7 +1133,8 @@ containing a value of this type.
         public static final int image=0x7f050027;
         public static final int image_border=0x7f050046;
         public static final int lblListHeader=0x7f05004e;
-        public static final int lblListItem=0x7f05004f;
+        public static final int lblListItem=0x7f050050;
+        public static final int lblListLayout=0x7f05004f;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int lvExp=0x7f05003d;
@@ -1232,9 +1236,10 @@ containing a value of this type.
         public static final int activity_main=0x7f03001b;
         public static final int activity_map=0x7f03001c;
         public static final int activity_tinder_screen=0x7f03001d;
-        public static final int list_group=0x7f03001e;
-        public static final int list_item=0x7f03001f;
-        public static final int support_simple_spinner_dropdown_item=0x7f030020;
+        public static final int activity_title_screen=0x7f03001e;
+        public static final int list_group=0x7f03001f;
+        public static final int list_item=0x7f030020;
+        public static final int support_simple_spinner_dropdown_item=0x7f030021;
     }
     public static final class menu {
         public static final int drop_screen=0x7f0c0000;
@@ -1243,6 +1248,7 @@ containing a value of this type.
         public static final int main=0x7f0c0003;
         public static final int map=0x7f0c0004;
         public static final int tinder_screen=0x7f0c0005;
+        public static final int title_screen=0x7f0c0006;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1298,6 +1304,7 @@ containing a value of this type.
         public static final int title_activity_gps=0x7f0a0017;
         public static final int title_activity_map=0x7f0a0018;
         public static final int title_activity_tinder_screen=0x7f0a0015;
+        public static final int title_activity_title_screen=0x7f0a001a;
     }
     public static final class style {
         /** 

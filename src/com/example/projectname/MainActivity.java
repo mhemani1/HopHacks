@@ -51,6 +51,7 @@ public class MainActivity extends Activity {
         // check if GPS enabled     
         if(gps.canGetLocation()){
              
+        	
             latitude = gps.getLatitude();
             longitude = gps.getLongitude();
                          

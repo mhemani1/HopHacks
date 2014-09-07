@@ -23,8 +23,10 @@
         android:divider="#cccccc"
         android:dividerHeight="4dp"
         android:childDivider="#00000000"
+        android:saveEnabled="true"
+        android:listSelector="@drawable/selector"
         android:layout_height="0dp"
-        android:cacheColorHint="#00000000" >
+        android:cacheColorHint="#ffffff" >
     </ExpandableListView>
 
     <RelativeLayout

@@ -14,5 +14,6 @@
     <string name="title_activity_gps">GPS</string>
     <string name="title_activity_map">MapActivity</string>
     <string name="question">How far are you willing to go?</string>
+    <string name="title_activity_title_screen">TitleScreen</string>
 
 </resources>
